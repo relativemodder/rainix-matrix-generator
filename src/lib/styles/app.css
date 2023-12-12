@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.some-input {
+    @apply bg-slate-100 p-3 text-xl focus-visible:outline-none;
+}
